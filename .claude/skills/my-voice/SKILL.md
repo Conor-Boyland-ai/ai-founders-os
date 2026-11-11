@@ -9,7 +9,7 @@ To write like the user, read their real writing in `samples/` and copy the STYLE
 
 ## If samples/ is empty
 
-Stop and tell the user, in one short message: "I don't have any of your writing yet. Paste in 5–10 things you've written that sound most like you (emails, posts, captions), and I'll save them so everything I write sounds like you." Save each one they give you as its own file in `samples/` (for example `samples/email-launch.md`), then carry on.
+Stop and tell the user, in one short message: "I don't have your writing samples yet. Paste in about 10 pieces of your best writing, or give me the link to your Voice page in Notion, and I'll save them so everything I write sounds like you." Save each one as its own file in `samples/`, named by format and mood (for example `warm-email-story.md`), then carry on.
 
 ## How to write
 
