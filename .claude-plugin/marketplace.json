@@ -11,7 +11,7 @@
       "name": "ai-founders-os",
       "source": "./plugins/ai-founders-os",
       "description": "An AI team for coaches and course creators: Cofounder, Content Researcher, Copywriter and Content Editor.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
