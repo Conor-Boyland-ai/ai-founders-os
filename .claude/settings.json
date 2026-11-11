@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "ai-founders-os": {
+      "source": {
+        "source": "github",
+        "repo": "Conor-Boyland-ai/ai-founders-os"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "ai-founders-os@ai-founders-os": true
+  }
+}
