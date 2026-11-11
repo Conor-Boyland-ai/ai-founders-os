@@ -1,5 +1,5 @@
 # AI Founders OS
 
-An AI team for coaches and course creators, built for Claude Code: a Cofounder, a Content Researcher, a Copywriter and a Content Editor.
+Your AI team for Claude Code: a Cofounder, a Researcher, a Copywriter and an Editor.
 
-Clone this folder, open it in your editor, and start Claude Code inside it. The agents and skills load on their own. They only work while this folder is the one open.
+Download this folder, open it in Antigravity, and start Claude Code. Your agents load on their own. They only work while this folder is the one open.

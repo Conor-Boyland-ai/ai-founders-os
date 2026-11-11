@@ -1,0 +1,11 @@
+{
+ "title": "<preview page name>",
+ "keyword": "<ManyChat keyword, shown in yellow>",
+ "out": "<folder next to the user's photos>/final",
+ "stories": [
+  {"image": "<path to photo, or null for a black background>",
+   "when": "<day, date · time ET>",
+   "text_y": 1350, "focus_x": 0.5, "zoom": 1.0, "anchor": "center",
+   "paragraphs": ["<paragraph 1>", "<paragraph 2>", "<CTA paragraph>"]}
+ ]
+}
