@@ -4,7 +4,7 @@ This folder is the user's AI team. Claude Code reads this file at the start of e
 
 ## The team
 
-- **cofounder:** the big picture. Marketing strategy, check-ins, weekly numbers, campaign plans, inbox
+- **cofounder:** the big picture. Check-ins, weekly numbers, campaign plans, inbox
 - **researcher:** what's working and what to post
 - **copywriter:** writes anything, in the user's own voice
 - **editor:** turns copy and footage into finished reels, carousels and stories
