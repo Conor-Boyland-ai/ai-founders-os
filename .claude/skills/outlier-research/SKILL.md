@@ -1,11 +1,11 @@
 ---
 name: outlier-research
-description: Pulls outlier reels from the user's Eden creator list and lays them out in one clean report, with every hook, topic, angle, CTA and full script word for word. Reports only, no interpretation. Use when the user asks to run outlier research, find outliers, or see what's working.
+description: Pulls outlier reels from the user's Eden creator list and lays them out as a clean data report, with every hook, CTA and full script word for word, plus outlier data and topic. Data only, no commentary. Use when the user asks to run outlier research, find outliers, or see what's working.
 ---
 
 # outlier-research
 
-One clean report of what's winning right now, so the user can read everything and model it.
+A clean data report of what's winning right now, so the user can read everything and model it.
 
 ## Inputs
 
@@ -28,24 +28,25 @@ If one of the first four is missing, ask for it in one line, then run.
 
 ## Report
 
-**At a glance:** one table, one row per reel, ranked:
+The report contains only these two parts, in this order.
 
-| # | Creator | Score | Text hook | Verbal hook | Topic | Angle |
+**1. One table, one row per reel, ranked:**
 
-**Then one section per reel, same order:**
+| # | Creator | Score | Views | Text hook | Verbal hook | Topic | Link |
+
+**2. One section per reel, same order:**
 
 **1. @creator · 4.2x · 310K views · Nov 2 · [link]**
 - **Text hook:** "on-screen text, word for word"
 - **Verbal hook:** "first line spoken, word for word"
 - **Topic:** one short line
-- **Angle:** one short line
 - **CTA:** "word for word"
 - **Script:** the full transcript, word for word
 
 ## Rules
 
+- The page is a data output. It holds the table and the reel sections and nothing else: no intro, summary, extra headings, notes, takeaways or commentary. The user reads the data and draws their own conclusions.
 - Copy hooks, CTAs and scripts exactly. The user models the real wording, so a cleaned-up version is useless to them.
-- Topic and angle are one short line each, a label and nothing more.
-- Report only. Picks, rankings beyond outlier score, and suggestions are the user's call, so leave them out.
+- Topic is a short factual label, one line.
 - When a reel has no CTA or no on-screen text, write "None". When Eden can't transcribe a reel, write "Transcript unavailable".
 - Real numbers only, all inside the timeframe.
