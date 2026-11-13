@@ -1,33 +1,44 @@
 ---
 name: outlier-research
-description: Finds Instagram posts in the user's niche that beat their creator's normal performance, and logs each one with its verbatim hook, format and numbers. Use when the user asks what's working, what's going viral, for competitor outliers, or for content research.
+description: Pulls outlier reels from the user's Eden creator list and shows each one word for word, with its hooks, full script, CTA and outlier score. Reports only, no interpretation. Use when the user asks to run outlier research, find outliers, or see what's working.
 ---
 
 # outlier-research
 
-A list of proven posts to model. Facts only, no judgment yet.
+Shows the user what's working, word for word, so they can judge it themselves.
 
 ## Inputs
 
-- The creators the user models, and any niche topics to sweep.
-- Time window (default: the last 30 days). Platform (default: Instagram).
+The user gives these each run:
+
+- **Outlier threshold:** how far above the creator's normal a reel performed, as a percentage (300% = 3x their normal)
+- **Number of reels:** how many to show
+- **Creators:** their whole Eden watchlist, or one named list
+- **Timeframe:** for example, the last 30 days
+
+If one is missing, ask for it in one line, then run.
 
 ## Steps
 
-1. For each creator, pull the posts beating their own average (Eden, or whichever social research tool is connected).
-2. Sweep the wider niche for breakouts on the topics given (2x+ outlier score).
-3. Read each post you keep for its exact hook.
+1. In Eden, pull reels from those creators inside the timeframe. Keep reels at or above the threshold. Rank by outlier score, highest first, and keep the number asked for.
+2. For each reel, have Eden transcribe the video (`eden_read_social_post` with the transcript on). The spoken transcript is the script. The text burned into the video (`onScreenText`) is the text hook. The written caption is a different thing, so leave it out: the user wants what the viewer saw and heard.
+3. Take the CTA from the script or on-screen text, word for word.
 
 ## Output
 
-One entry per outlier:
-- **Hook:** verbatim, on-screen and spoken
-- **Format:** what kind of post it is
-- **Topic:** one line
-- **Numbers:** outlier multiple, views, date
-- **Link**
+One block per reel, ranked. Exactly this shape:
+
+**1. @creator · 4.2x · 310K views · Nov 2 · [link]**
+- **Text hook:** "on-screen text, word for word"
+- **Verbal hook:** "first line spoken, word for word"
+- **Topic:** one short line
+- **CTA:** "word for word"
+- **Script:** the full transcript, word for word
 
 ## Rules
 
-- Verbatim hooks only. Never paraphrase.
-- Real numbers only. Nothing outside the time window.
+- Copy hooks, CTAs and scripts exactly. The user studies the real wording, so a cleaned-up version is useless to them.
+- Report only. Angles, patterns and suggestions are the user's call, so leave them out.
+- Topic is a short label, never more than one line.
+- When a reel has no CTA or no on-screen text, write "None". When Eden can't transcribe a reel, write "Transcript unavailable".
+- Real numbers only, all inside the timeframe.
