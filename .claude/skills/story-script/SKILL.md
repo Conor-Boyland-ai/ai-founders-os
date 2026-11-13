@@ -1,6 +1,6 @@
 ---
 name: story-script
-description: Writes the copy for a run of single-image Instagram stories that get the user's offer, lead magnet or event in front of their followers. Use when the user wants IG story copy, daily stories, story reminders or a story countdown.
+description: Writes the copy for a run of single-image Instagram stories that get the user's offer or lead magnet in front of their followers. Use when the user wants IG story copy or daily stories.
 ---
 
 # story-script
@@ -9,9 +9,8 @@ The words for a set of IG stories. One block of text per story.
 
 ## Inputs (from the brief)
 
-- What the stories are for (an offer, a lead magnet or an event), and the angle each one should cover.
+- What the stories are for (an offer or a lead magnet), and the angle each one should cover.
 - The CTA keyword and the posting days.
-- **For an event only:** the date and time.
 - **Model (optional):** a past story run to model. It sets structure only, never wording.
 
 ## Output
@@ -24,10 +23,9 @@ Stories are personal. They aren't ads or billboards. The user is talking to peop
 
 - **Ultra casual.** It reads like them telling followers about something they're doing. No headlines, no pitching, no hedging ("kinda"). The user never says "hot take."
 - **Full sentences only.** No fragments.
-- **Clear about what's in it for them:** a problem they have or a result they want, and what they'll get, with enough detail to mean something. Don't lean on an offer or event title; on its own it's too vague.
+- **Clear about what's in it for them:** a problem they have or a result they want, and what they'll get, with enough detail to mean something. Don't lean on an offer title; on its own it's too vague.
 - **Use proof** when the user has it: a result, a member win, a number.
-- **Every story ends on the keyword CTA,** written as a full sentence: "Reply KEYWORD for the link." or "Reply KEYWORD to reserve your seat."
-- **For an event, every story also repeats the date and time.** On the day itself, "today at [time]" is clearer than the date.
+- **Every story ends on the keyword CTA,** written as a full sentence: "Reply KEYWORD for the link."
 - **"I'm showing you,"** not "I'll show you."
 - **Name the core subject** (e.g. AI) in each one.
 - **Variety:** different lengths (one line up to 5 lines max, one screen, read fast), different openings, and every angle the user asked for covered. Never a set of cookie-cutter stories in the same pattern.
